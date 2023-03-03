@@ -1,0 +1,24 @@
+<!--pages/list/list.wxml-->
+<scroll-view class="container1" scroll-y="true">
+  <view>A</view>
+  <view>B</view>
+  <view>C</view>
+  <view>{{info}}</view>
+</scroll-view>
+
+<swiper class="swiperContainer" indicator-dots="true" indicator-active-color="grey" indicator-color="white" autoplay="3000" circular="true">
+<!----first item---->
+  <swiper-item>
+    <view class="item">A</view>
+  </swiper-item>
+<!----second item---->
+  <swiper-item>
+    <view class="item">B</view>
+  </swiper-item>
+<!----third item---->
+  <swiper-item>
+    <view class="item">C</view>
+  </swiper-item>
+</swiper>
+
+<button type="warn">退出登录</button>>
